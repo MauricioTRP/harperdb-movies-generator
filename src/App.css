@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Estilos base */
+
+body{
+  font-family:"lato", sans-serif;
+  color: white;
+  background-color: #082032;
+}
+
+a {
+  color: black;
+  font-family: "roboto", sans-serif;
+  font-size: 3.1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 3.5rem;
+  font-weight:600;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-weight: 300;
+}
+
+span {
+  color: #FFF338;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 2rem;
+}
+
+li {
+  outline-color: #2c394B;
+  outline-style: inset;
+  outline-width: 2px;
+  outline-offset: 5px;
+  margin: 11px;
+  padding: 0px, 2px;
+}
+
+img {
+  max-height: 500px;
+  width: 70vw;
+  margin: 0 auto;
+
+}
+
+/* Clases */
+
+.carga{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portada-pelicula{
+  max-width: 800px;
+  width: 90%;
+  background-color: #2c394B;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.circulo {
+  background-color: transparent;
+  margin-right: 37px;
+  text-align: center;
+  margin-top: 50px;
+  border: 3px solid #FFF338;
+  height: 90px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 90px;
+}
+
+.ratings {
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.mitad-grande, .mitad-pequena {
+  font-family: "roboto", sans-serif;
+  font-style: oblique;
+  color: white;
+}
+
+.mitad-pequena {
+  color: #DAD0C2;
+  font-size: 1.2rem;
+}
+
+.btn-visita-pelicula {
+  margin: 1rem 2rem;
+  padding: 1em 1em;
+  top: 50px;
+  left: 15px;
+  font-size: 1.2rem;
+  outline-style: solid;
+  color: #FFF338;
+  outline-color: #FFF338;
+  outline-offset: 10px;
+}
+
+.btn-generar-pelicula {
+  background-color: #FFF338;
+  margin: 1rem 2rem;
+  padding: 1em 1em;
+  top: 50px;
+  left: 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-accion {
+  width: inherit;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  font-size: 50px;
+  padding-top: 40px;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.info-arriba {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-soporte {
+  padding-left: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info-abajo {
+  font-family: "roboto", sans-serif;
+  max-width: 70vw;
+  margin: 1rem;
+  text-align: center;
+
+}
+
+.autores {
+  text-align: right;
+  padding: 0;
+}
+
+.imagen {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+
