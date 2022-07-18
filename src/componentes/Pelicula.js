@@ -8,7 +8,7 @@ function Pelicula(){
         {
             query: {
                 operation:'sql',
-                sql: "select * from colecion.pelicula"
+                sql: "select * from coleccion.pelicula"
             },
             interval: 40000  // 40 segundos
         }
