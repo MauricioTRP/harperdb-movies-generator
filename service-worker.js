@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/harperdb-movies-generator/precache-manifest.3bad0903fed48bfb077321abd6b22218.js"
+  "/harperdb-movies-generator/precache-manifest.5d3ddc655e7d5c99eafcd76dea6957cc.js"
 );
 
 workbox.clientsClaim();
