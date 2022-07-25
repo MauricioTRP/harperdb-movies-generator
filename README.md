@@ -20,6 +20,27 @@ Puedes hacer un fork tanto a este [proyecto](https://github.com/MauricioTRP/harp
 ## Ver Demo
 Para ver un demo de esta App puedes hacer click aquí [español](https://mauriciotrp.github.io/harperdb-movies-generator/) - [inglés](https://kingsleyubah.github.io/harperdb-movie-generator/)
 
+## .env y .gitignore
+Este repositorio usa variables de entorno para que no sean visibles en el repositorio las credenciales de HarperDB. Para usarlas y poder compartir el proyecto sin miedo a hacer públicas las credenciales deber
+1. Crear un archivo llamado .env en la raíz de tu proyecto y pasarle tus variables de entorno (Estas se usan en el index.js). Pasarás tus credenciales en el .env de la siguiente manera
+```
+REACT_APP_DB_URL = 'url_de_tu_BD'
+REACT_APP_USER = 'usuario_db'
+REACT_APP_PASSWORD = 'password'
+```
+2. Deberás modificar el archivo .gitignore para que cuando hagas operaciones con Git, este no tome en cuenta el archivo. Puedes ver un ejemplo de `.gitignore` a continuación.
+```
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+```
+3. Una vez modificado el `.gitignore` puedes hacer `git add .gitignore` y luego `git commit -m "comentario"` para que el sistema de versiones GIT no considere el archivo .env al momento de compartirlo
+
+
 ## Scripts disponibles
 
 En el directorio del proyecto puedes ejecutar: 
